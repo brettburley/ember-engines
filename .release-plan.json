@@ -1,0 +1,25 @@
+{
+  "solution": {
+    "ember-engines": {
+      "impact": "major",
+      "oldVersion": "0.9.0",
+      "newVersion": "1.0.0",
+      "constraints": [
+        {
+          "impact": "major",
+          "reason": "Appears in changelog section :boom: Breaking Change"
+        },
+        {
+          "impact": "minor",
+          "reason": "Appears in changelog section :rocket: Enhancement"
+        },
+        {
+          "impact": "patch",
+          "reason": "Appears in changelog section :house: Internal"
+        }
+      ],
+      "pkgJSONPath": "./packages/ember-engines/package.json"
+    }
+  },
+  "description": "## Release (2024-04-03)\n\nember-engines 1.0.0 (major)\n\n#### :boom: Breaking Change\n* `ember-engines`\n  * [#859](https://github.com/ember-engines/ember-engines/pull/859) Drop unsupported Node.js version 14 ([@SergeAstapov](https://github.com/SergeAstapov))\n\n#### :rocket: Enhancement\n* `ember-engines`\n  * [#849](https://github.com/ember-engines/ember-engines/pull/849) update ember-source peer dependency to include released version 5 ([@void-mAlex](https://github.com/void-mAlex))\n  * [#846](https://github.com/ember-engines/ember-engines/pull/846) enforce no app re-exports for engines ([@void-mAlex](https://github.com/void-mAlex))\n\n#### :house: Internal\n* `ember-engines`\n  * [#869](https://github.com/ember-engines/ember-engines/pull/869) Add more LTS version to CI matrix ([@SergeAstapov](https://github.com/SergeAstapov))\n  * [#863](https://github.com/ember-engines/ember-engines/pull/863) Sync addon setup with latest blueprint ([@SergeAstapov](https://github.com/SergeAstapov))\n  * [#840](https://github.com/ember-engines/ember-engines/pull/840) Bump webpack from 5.68.0 to 5.76.0 ([@dependabot[bot]](https://github.com/apps/dependabot))\n* Other\n  * [#872](https://github.com/ember-engines/ember-engines/pull/872) Setup release-plan ([@SergeAstapov](https://github.com/SergeAstapov))\n  * [#873](https://github.com/ember-engines/ember-engines/pull/873) run npm init release-plan-setup@latest ([@mansona](https://github.com/mansona))\n  * [#866](https://github.com/ember-engines/ember-engines/pull/866) Bump follow-redirects from 1.15.5 to 1.15.6 ([@dependabot[bot]](https://github.com/apps/dependabot))\n  * [#862](https://github.com/ember-engines/ember-engines/pull/862) Bump follow-redirects from 1.15.2 to 1.15.5 ([@dependabot[bot]](https://github.com/apps/dependabot))\n  * [#845](https://github.com/ember-engines/ember-engines/pull/845) Bump vm2 from 3.9.11 to 3.9.18 ([@dependabot[bot]](https://github.com/apps/dependabot))\n  * [#838](https://github.com/ember-engines/ember-engines/pull/838) Bump @xmldom/xmldom from 0.7.5 to 0.7.9 ([@dependabot[bot]](https://github.com/apps/dependabot))\n  * [#837](https://github.com/ember-engines/ember-engines/pull/837) Bump minimist from 0.2.1 to 0.2.4 ([@dependabot[bot]](https://github.com/apps/dependabot))\n  * [#832](https://github.com/ember-engines/ember-engines/pull/832) Bump decode-uri-component from 0.2.0 to 0.2.2 ([@dependabot[bot]](https://github.com/apps/dependabot))\n  * [#834](https://github.com/ember-engines/ember-engines/pull/834) Bump express from 4.17.2 to 4.18.2 ([@dependabot[bot]](https://github.com/apps/dependabot))\n  * [#831](https://github.com/ember-engines/ember-engines/pull/831) Bump loader-utils from 1.4.1 to 1.4.2 ([@dependabot[bot]](https://github.com/apps/dependabot))\n* `ember-blog`, `ember-chat`, `ember-engines`\n  * [#867](https://github.com/ember-engines/ember-engines/pull/867) Switch package manager to pnpm ([@void-mAlex](https://github.com/void-mAlex))\n\n#### Committers: 3\n- Alex ([@void-mAlex](https://github.com/void-mAlex))\n- Chris Manson ([@mansona](https://github.com/mansona))\n- Sergey Astapov ([@SergeAstapov](https://github.com/SergeAstapov))\n"
+}
